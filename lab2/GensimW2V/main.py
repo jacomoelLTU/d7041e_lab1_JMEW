@@ -16,7 +16,7 @@ for line in file: # read the file and create list which contains all sentences f
     sentences.append(line.split())
 # train word2vec on the two sentences
 
-dimension = 1000 # parameter for Word2vec size of vectors for word embedding
+dimension = 150 # parameter for Word2vec size of vectors for word embedding
 
 threshold = 0.00055 # parameter for Word2vec
 
