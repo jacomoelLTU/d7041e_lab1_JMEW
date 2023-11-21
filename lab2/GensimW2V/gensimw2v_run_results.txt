@@ -9,6 +9,7 @@ run 1 time due to the runningtime increase caused.
 Threshold ferq = 0.00055 Percentage of correct answers: 51.25% , dim = 50
 Threshold ferq = 0.0055 Percentage of correct answers: 50.0% , dim = 50
 
+Threshold ferq = 0.00055 Percentage of correct answers: 66.25% , dim = 100
 Threshold ferq = 5.5e-05 Percentage of correct answers: 68.75% , dim = 100
 
 Threshold ferq = 0.00055 Percentage of correct answers: 70.0% , dim = 150
