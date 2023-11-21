@@ -1,0 +1,47 @@
+
+ DIM 
+
+Elapsed time = 55.35794186592102 s , run1
+1000 Percentage of correct answers: 70.0%1000 
+
+Elapsed time = 57.867990016937256 s , run2
+1000 Percentage of correct answers: 71.25%
+
+Elapsed time = 57.32469058036804 s , run3
+1000 Percentage of correct answers: 65.0%
+
+Elapsed time = 54.569754123687744 s , run4
+1000 Percentage of correct answers: 65.0%
+
+Elapsed time = 72.03930282592773 s , run1
+4000 Percentage of correct answers: 80.0%
+
+Elapsed time = 70.94338345527649 s , run2
+4000 Percentage of correct answers: 77.5%
+
+Elapsed time = 78.92218971252441 s , run3
+4000 Percentage of correct answers: 73.75%
+
+Elapsed time = 71.94952893257141 s , run4
+4000 Percentage of correct answers: 70.0%
+
+-----------------------------------------------------------------
+
+Percentage of correct answers: 66.25% run2
+1000 Percentage of correct answers: 70.0% run3
+1000 Percentage of correct answers: 70.0% run4
+
+2000 Percentage of correct answers: 67.5% run1
+2000 Percentage of correct answers: 73.75% run2
+2000 Percentage of correct answers: 70.0% run3
+2000 Percentage of correct answers: 68.75% run4
+
+4000 Percentage of correct answers: 76.25% run1
+4000 Percentage of correct answers: 73.75% run2
+4000 Percentage of correct answers: 72.5% run3
+4000 Percentage of correct answers: 70.0% run4
+
+10000 Percentage of correct answers: 76.25% run1
+10000 Percentage of correct answers: 73.75% run2
+10000 Percentage of correct answers: 77.5% run3
+10000 Percentage of correct answers: 76.25% run4

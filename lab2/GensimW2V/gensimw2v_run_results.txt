@@ -1,0 +1,40 @@
+GensimW2V runs
+
+5. Report the accuracy on TOEFL for all simulations :
+
+The different simulations were run about 5 times, the percentage of the accuracy did not 
+differ to much from whats documentetd below, simulations of higher dimensionalites were only
+run 1 time due to the runningtime increase caused. 
+
+Threshold ferq = 0.00055 Percentage of correct answers: 51.25% , dim = 50
+Threshold ferq = 0.0055 Percentage of correct answers: 50.0% , dim = 50
+
+Threshold ferq = 0.00055 Percentage of correct answers: 66.25% , dim = 100
+Threshold ferq = 5.5e-05 Percentage of correct answers: 68.75% , dim = 100
+
+Threshold ferq = 0.00055 Percentage of correct answers: 70.0% , dim = 150
+
+Threshold ferq = 0.00055 Percentage of correct answers: 71.25% , dim = 200
+
+Threshold ferq = 5.5e-05 Percentage of correct answers: 68.75% , dim 500
+Threshold ferq = 0.00055 Percentage of correct answers: 72.5% , dim = 500
+
+Threshold ferq = 0.00055 Percentage of correct answers: 50.0% , dim = 10 , run1
+Threshold ferq = 0.00055 Percentage of correct answers: 52.5% , dim = 10 , run2
+Threshold ferq = 0.00055 Percentage of correct answers: 50.0% , dim = 10 , run3
+
+6. Elaborate how accuracy changes with the dimensionality :
+
+The accuracy increases with the increase of the dimensionality paramater, higher dimensionalites
+increases the models expressiveness and abillity to realise linguistic patterns in the text thus 
+more complex semantic relationships between words will be more accuratly predicted.
+
+This indicates that there is a trade-off between the choice of dimensionalites and computational
+resources, one need to tune the parameters of the model to ahcive better results. This process
+will be different depending on the data and the goal of what one are trying ahcieve with ones model.
+This can be acomplished through testing and analyzing of the data set.
+
+For the dataset and model provided the accuracy increase seems to deminish for dimensionalites around 
+100.
+
+

@@ -1,11 +1,12 @@
 import numpy as np
 import text_functions as tf
 import nltk
+import time 
 
 #@author: The first version of this code is the courtesy of Vadim Selyanik
 
 threshold = 15000 # Frequency threshold in the corpus ??
-dimension = 2000 # Dimensionality for high-dimensional vectors
+dimension = 4000 # Dimensionality for high-dimensional vectors
 lemmatizer = nltk.WordNetLemmatizer()  # create an instance of lemmatizer
 ones_number = 2 # number of nonzero elements in randomly generated high-dimensional vectors
 window_size = 2 #number of neighboring words to consider both back and forth. In other words number of words before/after current word
@@ -14,6 +15,8 @@ test_name = "new_toefl.txt" # file with TOEFL dataset
 data_file_name = "lemmatized.text" # file with the text corpus
 
 amount_dictionary = {}
+
+startTime = time.time()
 
 # Count how many times each word appears in the corpus
 text_file = open(data_file_name, "r")
@@ -169,6 +172,13 @@ while i < number_of_tests:
         i += 1
 text_file.close()
 a += 100 * right_answers / number_of_tests
+
+endTime = time.time()
+
+elapsedTime = endTime - startTime
+
+print("\nElapsed time =" , elapsedTime , "s")
+
 print(str(dimension) + " Percentage of correct answers: " + str(100 * right_answers / number_of_tests) + "%")
 
 
